@@ -79,6 +79,7 @@ a {
 .heading-paragraph {
   color: hsl(303, 10%, 53%);
   line-height: 1.7;
+  font-weight: 500;
   z-index: 4;
 }
 
@@ -156,8 +157,8 @@ a {
 }
 
 .opinion-wrapper {
-  width: 31%;
-  height: 90%;
+  width: 42vmin;
+  height: 28vmin;
   border-radius: 10px;
   background-color: hsl(300, 43%, 22%);
   transition: all 0.5s;
@@ -185,14 +186,15 @@ a {
 }
 
 .id {
-  width: 60%;
+  width: 65%;
   height: 30%;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .portrait {
   border-radius: 50%;
   height: 80%;
+  margin-right: 2ch;
   z-index: 5;
 }
 
