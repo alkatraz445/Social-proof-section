@@ -81,5 +81,9 @@
   .opinion-wrapper {
     width: 100%;
     height: 40%;
+    margin-bottom: 2ch;
+  }
+  .id {
+    width: 100%;
   }
 }
