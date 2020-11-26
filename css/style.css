@@ -35,6 +35,10 @@ a {
   align-items: center;
 }
 
+.no-select {
+  user-select: none;
+}
+
 /* Main */
 
 #wrapper {
